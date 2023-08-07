@@ -1,0 +1,11 @@
+name: DailyTaxEconomy
+version: '${project.version}'
+main: com.ghostchu.plugins.dailytaxeconomy.DailyTaxEconomy
+api-version: '1.20'
+commands:
+  dailytaxeconomy:
+    usage: /dailytaxeconomy <user> <percent in double 0.0-1.0>
+permissions:
+  dailytaxeconomy.grant:
+    default: op
+    description: Allows the user to grant the tax to another player
